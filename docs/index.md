@@ -13,5 +13,7 @@ Just install the Stabler module via npm and then import it in your page
 
 This is the list of all components ported to Svelte currently:
 
-- Vertical Navbar
+- [Navbar](/components/navbar)
 - List(in beta)
+- [Modal](/components/modal)
+- Input form

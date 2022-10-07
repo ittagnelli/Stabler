@@ -41,8 +41,8 @@
           {#if submenu.submenus.length < 0}
             <li class="nav-item dropdown">
               <a class="nav-link" href={submenu.href}>
-                <span class="nav-link-icon d-md-none d-lg-inline-block">
-                  {@html submenu.icon}
+                <span class="nav-link-icon d-md-none d-lg-inline-block">  
+                  <slot/>
                 </span>
                 <span class="nav-link-title">
                   {submenu.title}
@@ -60,7 +60,7 @@
                 aria-expanded="false"
               >
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
-                    {@html submenu.icon}
+                  <slot/>
                 </span>
                 <span class="nav-link-title">
                   {submenu.title}

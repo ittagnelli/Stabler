@@ -2,7 +2,7 @@
     "doc": "About",
     "title": "About",
     "content": "Stabler is a port of Tabler UI to Svelte written by Andrea Canale from an idea of Antonio Mancuso. ",
-    "url": "http://localhost:4000/docs/about/",
+    "url": "http://localhost:4000/about/",
     "relUrl": "/about/"
   }
 }
