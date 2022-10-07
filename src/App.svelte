@@ -1,7 +1,11 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
   import LeftBar from './lib/LeftBar.svelte';
+  import List from './lib/List.svelte';
+
+  let ths: Array<string> = ["test1", "test2", "test3", "test4", "test5", "test6", "test7"];
+
+  // You can write simple text or HTML element
+  let tds: Array<string> = ["test1", "test2", "test3", "test4", "test5", "test6", "<button>test button</button>"];
 
   let submenus: Array<SubMenu> = [{
     submenus: [
@@ -19,28 +23,10 @@
 </script>
 
 <main>
+
   <LeftBar logoAlt="This is the logo" logo="logo.jpg" logoHeight=120 logoWidth=138 submenus={submenus}></LeftBar>
-  <div>
-    <a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> 
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+  <List title="A simple list" cols={ths} rows={tds}></List>
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
