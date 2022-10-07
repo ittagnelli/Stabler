@@ -4,3 +4,15 @@
 
 layout: home
 ---
+
+# Welcome to the documentation of Stabler!
+
+Stabler is the port of Tabler UI for Svelte
+
+Just install the Stabler module via npm and then import it in your page
+
+This is the list of all components ported to Svelte currently:
+
+- Vertical Navbar
+- List(in beta)
+

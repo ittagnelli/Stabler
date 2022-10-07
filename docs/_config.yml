@@ -17,8 +17,10 @@ title: Stabler
 email: andrecanale05@libero.it
 description: >- # this means to ignore newlines until "baseurl:"
   Stabler is a set of Svelte components using TablerUI
+domain: stabler.github.io  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stabler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /ittagnelli/stabler 
 github_username:  Andrea055
 
 # Build settings
